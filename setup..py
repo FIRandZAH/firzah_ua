@@ -1,19 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="firzah_ua",
-    version="0.0.1",
-    author="FIRandZAH",
-    author_email="firmanalayk@gmail.com",
-    description="Library Python sederhana untuk mengelola user agent",
-    long_description=open("README.md", "r").read(),
-    long_description_content_type="text/markdown",
-    url="https://github.com/FIRandZAH/firzah_ua",
+    name='create_user_agent',
+    version='0.1',
     packages=find_packages(),
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+    install_requires=[
+        # Add dependencies here.
+        # e.g. 'numpy>=1.11.1'
     ],
-    python_requires=">=3.12",
 )
